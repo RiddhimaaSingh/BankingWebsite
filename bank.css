@@ -1,0 +1,208 @@
+/* *{
+    background-color: black;
+} */
+.info {
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px 80px;
+    z-index: 1000;
+}
+
+
+#color {
+    /* color: aliceblue; */
+    padding-right: 40px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#color:hover {
+    color: rgb(56, 134, 75);
+}
+
+#color1:hover {
+    /* color: rgb(25, 112, 48); */
+    font-size: xx-large;
+    color: azure;
+}
+
+#color1 {
+    /* color: aliceblue; */
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-right: 90px; */
+    padding-left: 80px;
+    padding-top: 10px;
+    /* height: 20px; */
+}
+
+#navbarSupportedContent {
+    padding-right: 20px;
+}
+
+#navbarSupportedContent>button {
+    margin-right: 70px;
+    background: green;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+}
+
+#navbarSupportedContent>button:hover {
+    color: white;
+}
+
+.videomid {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.videomid video {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    /* z-index: 1000; */
+    position: relative;
+}
+
+body>div>div>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(24, 134, 92);
+    background-color: rgb(24, 134, 92);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+body>div>div>h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+body>div>div>p {
+    color: white;
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.about {
+    background-color: black;
+    
+}
+
+.writtenpart {
+    color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+}
+
+body>section>div>div.writtenpart.col-lg-6.col-md-6.col-12.w-50.container.pt-5.pb-5>h6 {
+    color: rgb(34, 135, 34);
+}
+
+#btncolor {
+    background-color: rgb(96, 173, 96);
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+
+
+}
+#btncolor2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+body>section>div>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#about {
+    background-color: black;
+    padding-left: 70px;
+}
+.row3{
+    
+    padding-left: 100px;
+    padding-top: 0;
+}
+.row2{
+    
+    padding-left: 100px;
+}
+img, svg {
+    padding-bottom: 40px;
+}
+.navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    position: fixed;
+}
+.written{
+    background-color: #fff;
+    font-size: large;
+}
+.imagee{
+    background-color: white;
+}
+/* .service
+{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+div.card{
+   margin-left: 15px;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    background-color: black;
+    padding: 40px;
+}
